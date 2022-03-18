@@ -1,0 +1,1 @@
+export 'animate_widget_screen.dart';
