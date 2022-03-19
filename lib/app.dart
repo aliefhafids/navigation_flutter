@@ -12,7 +12,7 @@ class App extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Navigation',
-      home: FirstRoute(),
+      home: HomeScreen(),
     );
   }
 }
