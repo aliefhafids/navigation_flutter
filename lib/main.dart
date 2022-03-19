@@ -1,6 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:navigation_flutter/app.dart';
+import 'screens/navigate_routed_screen.dart';
 
 void main() {
-  runApp(const App());
+  runApp(
+    MaterialApp(
+      title: 'Named Routes Demo',
+      initialRoute: '/',
+      routes: {
+        '/': (context) =>
+          const FirstScreen(),
+            '/second': (context) =>
+            const SecondScreen(),
+      },
+    ),
+  );
 }
